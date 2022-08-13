@@ -13,6 +13,8 @@
 		82394AA128A4E18A005957FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82394A9F28A4E18A005957FD /* Main.storyboard */; };
 		82394AA328A4E18B005957FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82394AA228A4E18B005957FD /* Assets.xcassets */; };
 		82394AA628A4E18B005957FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82394AA428A4E18B005957FD /* LaunchScreen.storyboard */; };
+		82394AAE28A4E1F8005957FD /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82394AAD28A4E1F8005957FD /* MemoViewController.swift */; };
+		82394AB128A7BF5B005957FD /* topPage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 82394AB028A7BF5B005957FD /* topPage.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		82394AA228A4E18B005957FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82394AA528A4E18B005957FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82394AA728A4E18B005957FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82394AAD28A4E1F8005957FD /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
+		82394AB028A7BF5B005957FD /* topPage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = topPage.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		82394A9828A4E18A005957FD /* MemoPad */ = {
 			isa = PBXGroup;
 			children = (
+				82394AAF28A7BF5B005957FD /* MemoPad 素材 */,
 				82394A9928A4E18A005957FD /* AppDelegate.swift */,
 				82394A9B28A4E18A005957FD /* SceneDelegate.swift */,
 				82394A9D28A4E18A005957FD /* ViewController.swift */,
+				82394AAD28A4E1F8005957FD /* MemoViewController.swift */,
 				82394A9F28A4E18A005957FD /* Main.storyboard */,
 				82394AA228A4E18B005957FD /* Assets.xcassets */,
 				82394AA428A4E18B005957FD /* LaunchScreen.storyboard */,
@@ -66,6 +72,14 @@
 			);
 			path = MemoPad;
 			sourceTree = "<group>";
+		};
+		82394AAF28A7BF5B005957FD /* MemoPad 素材 */ = {
+			isa = PBXGroup;
+			children = (
+				82394AB028A7BF5B005957FD /* topPage.jpeg */,
+			);
+			path = "MemoPad 素材";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -125,6 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82394AB128A7BF5B005957FD /* topPage.jpeg in Resources */,
 				82394AA628A4E18B005957FD /* LaunchScreen.storyboard in Resources */,
 				82394AA328A4E18B005957FD /* Assets.xcassets in Resources */,
 				82394AA128A4E18A005957FD /* Main.storyboard in Resources */,
@@ -138,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82394AAE28A4E1F8005957FD /* MemoViewController.swift in Sources */,
 				82394A9E28A4E18A005957FD /* ViewController.swift in Sources */,
 				82394A9A28A4E18A005957FD /* AppDelegate.swift in Sources */,
 				82394A9C28A4E18A005957FD /* SceneDelegate.swift in Sources */,
